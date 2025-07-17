@@ -81,5 +81,5 @@ done
 
 (
     cd "${COMPOSE}"
-    docker-compose up
+    docker compose up
 )
