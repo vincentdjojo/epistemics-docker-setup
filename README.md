@@ -25,7 +25,7 @@ cd docker/epistemics-docker-setup
 - Manage Swarm mode (initially optional but caused network errors): Run `docker swarm init` for attachable networks, or `docker swarm leave --force` for standalone; we ended up using standalone.
 - Make network attachable: In `docker-compose.yml`, update `networks: robopop:` to include `driver: bridge` and `attachable: true`.
 
-## 4. Edit docker-compose.yml for Compatibility and Single Instance
+## 4. (I already edited the code, please skip this) Edit docker-compose.yml for Compatibility and Single Instance
 
 - Remove Swarm-specific `deploy:` sections (e.g., `replicas: 2` for epistemics to avoid port bind conflicts; default to 1 instance).
 - Remap ports if conflicts (e.g., epistemics from 8888 to 8899 via `published: 8899`).
