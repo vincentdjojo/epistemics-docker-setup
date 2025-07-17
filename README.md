@@ -87,6 +87,9 @@ export DISPLAY="$(./osx-host.sh):0"
 
 This process involved iterative fixes for Docker compatibility, ports, Swarm, and X11 forwarding due to the repo's age (~2022) and M1 architecture. Total time: Several iterations over errors, but now it's operational for experimenting with the belief system! If anything breaks again, check logs first.
 
+### UI should Look Like Such:
+<img width="1435" height="833" alt="image" src="https://github.com/user-attachments/assets/0451549b-3d64-44e2-9237-2701796c61c6" />
+
 ______________________________________________________________________________________________________________________________________
 
 # (OLD INSTRUCTIONS) Docker orchestration of ROBOpop components
