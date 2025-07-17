@@ -12,9 +12,8 @@ Here's a condensed guide based on the troubleshooting and setup process we went 
 ## 2. Clone Repositories
 
 ```bash
-git clone https://github.com/robopop/docker.git
-git clone https://github.com/robopop/epistemics.git
-cd docker/robopop
+git clone https://github.com/vincentdjojo/epistemics-docker-setup/
+cd docker/epistemics-docker-setup
 ```
 
 ## 3. Initial Docker Setup and Fixes
